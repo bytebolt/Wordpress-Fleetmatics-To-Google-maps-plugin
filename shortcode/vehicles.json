@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "",
+    "VehicleNumber": "",
+    "RegistrationNumber": "",
+    "VIN": null,
+    "Make": null,
+    "Year": 2013,
+    "Model": null,
+    "TankCapacity": 45.0,
+    "HighwayMPG": 6.0,
+    "CityMPG": 9.4,
+    "VehicleSize": 1,
+    "HasNavigationDevice": false
+  },
+  {
+    "Name": "",
+    "VehicleNumber": "",
+    "RegistrationNumber": "",
+    "VIN": null,
+    "Make": null,
+    "Year": 2013,
+    "Model": null,
+    "TankCapacity": 45.0,
+    "HighwayMPG": 6.0,
+    "CityMPG": 9.4,
+    "VehicleSize": 0,
+    "HasNavigationDevice": false
+  },
+  {
+    "Name": "",
+    "VehicleNumber": "",
+    "RegistrationNumber": "",
+    "VIN": null,
+    "Make": null,
+    "Year": 2013,
+    "Model": null,
+    "TankCapacity": 45.0,
+    "HighwayMPG": 6.0,
+    "CityMPG": 9.4,
+    "VehicleSize": 1,
+    "HasNavigationDevice": false
+  }
+]

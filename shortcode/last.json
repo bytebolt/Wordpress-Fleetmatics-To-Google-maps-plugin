@@ -1,0 +1,75 @@
+{
+  "171MO2328": {
+    "Address": {
+      "AddressLine1": "",
+      "AddressLine2": "",
+      "Locality": "",
+      "AdministrativeArea": "MO",
+      "PostalCode": "",
+      "Country": "IRL"
+    },
+    "DeltaDistance": 0.0,
+    "DeltaTime": 8,
+    "DeviceTimeZoneOffset": null,
+    "DeviceTimeZoneUseDST": false,
+    "DisplayState": "Towing",
+    "Direction": 292,
+    "Heading": "West",
+    "DriverNumber": null,
+    "GeoFenceName": null,
+    "Latitude": 54.107038,
+    "Longitude": -9.067054,
+    "Speed": 0.18000000715255737,
+    "UpdateUTC": "2020-11-28T13:46:51",
+    "IsPrivate": false
+  },
+  "152MO1105": {
+    "Address": {
+      "AddressLine1": "",
+      "AddressLine2": "",
+      "Locality": "",
+      "AdministrativeArea": "MO",
+      "PostalCode": "",
+      "Country": "IRL"
+    },
+    "DeltaDistance": 0.744,
+    "DeltaTime": 83,
+    "DeviceTimeZoneOffset": null,
+    "DeviceTimeZoneUseDST": false,
+    "DisplayState": "Stop",
+    "Direction": 215,
+    "Heading": "",
+    "DriverNumber": null,
+    "GeoFenceName": null,
+    "Latitude": 54.107125,
+    "Longitude": -9.06786,
+    "Speed": 0.0,
+    "UpdateUTC": "",
+    "IsPrivate": false
+  },
+  "182D24011": {
+    "Address": {
+      "AddressLine1": "",
+      "AddressLine2": "",
+      "Locality": "",
+      "AdministrativeArea": "MO",
+      "PostalCode": "",
+      "Country": "IRL"
+    },
+    "DeltaDistance": 0.0,
+    "DeltaTime": 7,
+    "DeviceTimeZoneOffset": null,
+    "DeviceTimeZoneUseDST": false,
+    "DisplayState": "Stop",
+    "Direction": 351,
+    "Heading": "Unknown",
+    "DriverNumber": null,
+    "GeoFenceName": null,
+    "Latitude": 54.212149,
+    "Longitude": -9.223313,
+    "Speed": 0.0,
+    "UpdateUTC": "2020-11-27T15:18:47",
+    "IsPrivate": false
+  },
+  "last": ""
+}
