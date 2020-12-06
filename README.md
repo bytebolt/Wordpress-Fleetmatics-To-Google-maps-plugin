@@ -14,3 +14,4 @@ shortcode/get.php
 You can insert map instantly in any page or post by using the above shortcode, along with your Google maps Javascript API key. Enabling billing is now mandatory and google provide free 200 USD credits every month which is more than sufficient for an average website. 
 Height and width can be set for the map frame using w and h parameters and supports all units like percentages, pixels etc.
 
+![Map](https://github.com/bytebolt/Wordpress-Fleetmatics-To-Google-maps-plugin/raw/main/Screenshot%202020-12-06%20054510.png)
