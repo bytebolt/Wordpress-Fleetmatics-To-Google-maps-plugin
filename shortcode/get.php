@@ -40,8 +40,8 @@ if(time()-filemtime(plugin_dir_path( __FILE__ )."token")>20*60){
 		$token = file_get_contents(plugin_dir_path( __FILE__ )."token");
 		$vehicles = array();
 
-		foreach (json_decode(file_get_contents(plugin_dir_path( __FILE__ )."vehicles.json")) as $key => $value) {
-			array.array_push($vehicles, $key["VehicleNumber"]); # code...
+		foreach (json_decode(file_get_contents(plugin_dir_path( __FILE__ )."vehicles.json"),true) as $key => $value) {
+			array_push($vehicles, $value["VehicleNumber"]); # code...
 		}
 
 		$auth_endpoint = 'https://fim.api.eu.fleetmatics.com/token';
@@ -110,17 +110,10 @@ die();
 }
 
 function lastSeen(){
-	// echo time();
-	// echo filemtime("last.json");
-	// die();
 	echo file_get_contents(plugin_dir_path( __FILE__ )."last.json");
 	echo '"lastSeen":'.(1000*filemtime(plugin_dir_path( __FILE__ )."last.json")).'}';
 	die();
 }
-
-// echo time();
-// echo filemtime(plugin_dir_path( __FILE__ )."vehicles.json");
-
 
 if(time()-filemtime(plugin_dir_path( __FILE__ )."vehicles.json")>60*60*24){
 	if(time()-filemtime(plugin_dir_path( __FILE__ )."token")>20*60)
