@@ -136,7 +136,7 @@ defer
 
 						//legend
 						const div = document.createElement("div");
-						div.innerHTML = "<b>" + names[i] + "</b> - " + (data[i]['DisplayState']=="Moving"?"Moving":"Stopped") + "<br>" + data[i]['Address']['AddressLine1'] + ", " + (data[i]['Address']['AddressLine2']?(data[i]['Address']['AddressLine2'] + ", "):"") + data[i]['Address']['Locality'] + ", "+data[i]['Address']['AdministrativeArea'] +"<br><br>" ;
+						div.innerHTML = "<div class='hideMobile'>" + "<b>" + names[i] + "</b> - " + (data[i]['DisplayState']=="Moving"?"Moving":"Stopped") + "<br>" + data[i]['Address']['AddressLine1'] + ", " + (data[i]['Address']['AddressLine2']?(data[i]['Address']['AddressLine2'] + ", "):"") + data[i]['Address']['Locality'] + ", "+data[i]['Address']['AdministrativeArea'] +"<br><br>" + "</div>" ;
 						legend.appendChild(div);
 
 						//info window
@@ -227,7 +227,7 @@ defer
 
 						//legend
 						const div = document.createElement("div");
-						div.innerHTML = "<b>" + names[i] + "</b> - " + (data[i]['DisplayState']=="Moving"?"Moving":"Stopped") + "<br>" + data[i]['Address']['AddressLine1'] + ", " + (data[i]['Address']['AddressLine2']?(data[i]['Address']['AddressLine2'] + ", "):"") + data[i]['Address']['Locality'] + ", "+data[i]['Address']['AdministrativeArea'] +"<br><br>" ;
+						div.innerHTML = "<div class='hideMobile'>"+"<b>" + names[i] + "</b> - " + (data[i]['DisplayState']=="Moving"?"Moving":"Stopped") + "<br>" + data[i]['Address']['AddressLine1'] + ", " + (data[i]['Address']['AddressLine2']?(data[i]['Address']['AddressLine2'] + ", "):"") + data[i]['Address']['Locality'] + ", "+data[i]['Address']['AdministrativeArea'] +"<br><br>" + "</div>" ;
 						legend.appendChild(div);
 
 						//info window
@@ -278,6 +278,15 @@ defer
 
 </script>
 <style type="text/css">
+	@media only screen and (max-width: 600px) {
+	.hideMobile{
+		display:none;
+		}
+		#legend{
+			height:40px;
+		}
+	}
+	
 	#map
 	{
 /*		position: absolute !important;  */
